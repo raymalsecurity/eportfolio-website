@@ -54,22 +54,22 @@ export default function Page() {
   ];
 
   const projects = [
-    {
-      title: "Home Network Security Audit",
-      description:
-        "Performed a residential network security review focused on router settings, wireless exposure, device placement, and practical hardening recommendations.",
-    },
-    {
-      title: "Connected Security Risk Analysis",
-      description:
-        "Explored cybersecurity concerns in alarm and camera ecosystems, including remote access exposure, default credentials, and cloud-connected devices.",
-    },
-    {
-      title: "Cybersecurity Policy Research",
-      description:
-        "Developed academic work around evolving cyber threats, privacy concerns, and defensive strategy in modern connected systems.",
-    },
-  ];
+  {
+    title: "Residential Network Security Audit & Hardening",
+    description:
+      "Performed a full audit of a home network, identifying insecure configurations, exposed services, and weak authentication. Implemented segmentation and hardening techniques.",
+  },
+  {
+    title: "Cybersecurity Risk Analysis of Connected Security Systems",
+    description:
+      "Analyzed vulnerabilities in alarm and surveillance systems including default credentials, cloud exposure, and network access risks. Proposed mitigation strategies.",
+  },
+  {
+    title: "Security Log Analysis & Incident Detection Simulation",
+    description:
+      "Reviewed system and network logs to identify suspicious behavior, including failed login attempts and abnormal activity patterns. Documented investigation process.",
+  },
+];
 
   const quickPaths = [
     {
@@ -511,19 +511,19 @@ export default function Page() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="mailto:yourname@email.com"
+                href="raymond/one23@hotmail.com
                 className="rounded-2xl border border-cyan-300/30 bg-cyan-400/90 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5"
               >
                 Email Me
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/raymond-malone/"
                 className="rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
               >
                 LinkedIn
               </a>
               <a
-                href="#"
+                href="https://github.com/raymalsecurity"
                 className="rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
               >
                 GitHub
