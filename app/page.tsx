@@ -511,7 +511,7 @@ export default function Page() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="raymond/one23@hotmail.com
+                href="raymond/one23@hotmail.com"
                 className="rounded-2xl border border-cyan-300/30 bg-cyan-400/90 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5"
               >
                 Email Me
