@@ -55,9 +55,9 @@ export default function Page() {
 
   const projects = [
   {
-    title: "Residential Network Security Audit & Hardening",
+    title: "IoT Security Risk & Policy Analysis",
     description:
-      "Performed a full audit of a home network, identifying insecure configurations, exposed services, and weak authentication. Implemented segmentation and hardening techniques.",
+      " Analyzed cybersecurity risk assoicoated with cloud-conected security devices. This proposal details requirments I believe need to be implemented in the security through regulatory bodies like the Virginia Department of Criminal Justise Services.",
   },
   {
     title: "Cybersecurity Risk Analysis of Connected Security Systems",
