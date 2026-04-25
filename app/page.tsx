@@ -320,17 +320,6 @@ export default function Page() {
                     <p className="text-xs uppercase tracking-[0.28em] text-cyan-300">{item.label}</p>
                     <h3 className="mt-4 text-xl font-semibold">{item.title}</h3>
                     <p className="mt-3 leading-7 text-slate-300">{item.description}</p>
-                    <a
-                       href="/files/iot-security-whitepaper.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-6 inline-block rounded-xl border border-cyan-300/30 bg-cyan-400/90 px-4 py-2 text-sm font-semibold text-slate-950 hover:-translate-y-0.5 transition"
-                      >
-                        Download White Paper (PDF)
-                    </a>
-                    <p className="mt-2 text-sm text-cyan-300">
-                        White Paper • Policy Analysis • IoT Security
-                    </p>
                <div className="mt-6 flex items-center text-sm font-medium text-white/90">
                       Explore
                       <ArrowUpRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
@@ -458,6 +447,17 @@ export default function Page() {
             >
               <p className="text-sm uppercase tracking-[0.25em] text-cyan-300">Featured Project</p>
               <h3 className="mt-4 text-2xl font-semibold">{projects[0].title}</h3>
+                <a
+                       href="/files/iot-security-whitepaper.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-6 inline-block rounded-xl border border-cyan-300/30 bg-cyan-400/90 px-4 py-2 text-sm font-semibold text-slate-950 hover:-translate-y-0.5 transition"
+                      >
+                        Download White Paper (PDF)
+                    </a>
+                    <p className="mt-2 text-sm text-cyan-300">
+                        White Paper • Policy Analysis • IoT Security
+                    </p>
               <p className="mt-5 max-w-2xl leading-8 text-slate-300">{projects[0].description}</p>
             </motion.div>
 
