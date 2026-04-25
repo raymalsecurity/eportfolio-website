@@ -189,10 +189,7 @@ export default function Page() {
                   and cybersecurity to protect connected systems.
                 </h1>
                 <p className="mt-6 max-w-2xl text-base leading-8 text-slate-200 md:text-lg">
-                  I am a cybersecurity graduate student and security technician with hands-on experience
-                  installing and supporting alarm and surveillance systems. My goal is to grow into a
-                  cybersecurity role focused on protecting modern connected environments through both
-                  technical knowledge and real-world system experience.
+                 Cybersecurity graduate student with hands-on experience in security system deployment and networked device environments, pursuing a SOC Analyst role.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-4">
                   <a
