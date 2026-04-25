@@ -320,7 +320,15 @@ export default function Page() {
                     <p className="text-xs uppercase tracking-[0.28em] text-cyan-300">{item.label}</p>
                     <h3 className="mt-4 text-xl font-semibold">{item.title}</h3>
                     <p className="mt-3 leading-7 text-slate-300">{item.description}</p>
-                    <div className="mt-6 flex items-center text-sm font-medium text-white/90">
+                    <a
+                       href="/files/iot-security-whitepaper.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-6 inline-block rounded-xl border border-cyan-300/30 bg-cyan-400/90 px-4 py-2 text-sm font-semibold text-slate-950 hover:-translate-y-0.5 transition"
+                      >
+                        Download White Paper (PDF)
+                    </a>
+               <div className="mt-6 flex items-center text-sm font-medium text-white/90">
                       Explore
                       <ArrowUpRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
                     </div>
