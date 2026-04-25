@@ -30,7 +30,7 @@ export default function Page() {
   const orbThreeY = useTransform(scrollY, [0, 1000], [0, -70]);
 
   const stats = [
-    { label: "Security+", value: "Certified", icon: Shield },
+    { label: "Security+ (expired)", value: "Certified", icon: Shield },
     { label: "Focus", value: "SOC Path", icon: Radar },
     { label: "Approach", value: "Hands-On", icon: Cpu },
   ];
@@ -96,7 +96,7 @@ export default function Page() {
   ];
 
   const skills = [
-    "CompTIA Security+",
+    "CompTIA Security+ (expired)",
     "Security System Installation",
     "Alarm.com & Camera Platforms",
     "Network Security Fundamentals",
@@ -189,10 +189,9 @@ export default function Page() {
                   and cybersecurity to protect connected systems.
                 </h1>
                 <p className="mt-6 max-w-2xl text-base leading-8 text-slate-200 md:text-lg">
-                  I am a cybersecurity graduate student and security technician with hands-on experience
-                  installing and supporting alarm and surveillance systems. My goal is to grow into a
-                  cybersecurity role focused on protecting modern connected environments through both
-                  technical knowledge and real-world system experience.
+                 I am a first year cybersecurity graduate student at Old Dominion University. I also
+                 have hands on experience installing electronic security systems. My current goal is 
+                 to expand my security knowledge into the cybersecurity industry.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-4">
                   <a
@@ -367,8 +366,8 @@ export default function Page() {
                 use them.
               </p>
               <p className="mt-5 leading-8 text-slate-300">
-                As I continue building my cybersecurity knowledge through graduate study, I am focused on
-                understanding how digital threats affect physical systems, connected environments, and the
+                As I continue building my cybersecurity knowledge through graduate school, I want to
+                understand how digital threats affect physical systems, connected environments, and the
                 broader security landscape. This portfolio reflects that growth, along with my academic
                 work, technical interests, and career direction.
               </p>
