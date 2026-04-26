@@ -445,8 +445,20 @@ export default function Page() {
               className="rounded-[2rem] border border-white/10 bg-white/5 p-8 backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:bg-white/10"
             >
               <p className="text-sm uppercase tracking-[0.25em] text-cyan-300">Featured Project</p>
-              <h3 className="mt-4 text-2xl font-semibold">{projects[0].title}</h3>
-              <p className="mt-5 max-w-2xl leading-8 text-slate-300">{projects[0].description}</p>
+            <h3 className="mt-4 text-2xl font-semibold">{projects[0].title}</h3>
+
+<p className="mt-5 max-w-2xl leading-8 text-slate-300">
+  {projects[0].description}
+</p>
+
+<a
+  href="/files/Cybersecurity%20in%20Security%20Raymond%20Malone%20Final.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-6 inline-block rounded-xl border border-cyan-300/30 bg-cyan-400/90 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5"
+>
+  Download White Paper (PDF)
+</a>
             </motion.div>
 
             <div className="grid gap-6">
