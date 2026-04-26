@@ -55,20 +55,29 @@ export default function Page() {
 
   const projects = [
   {
-    title: "Residential Network Security Audit & Hardening",
+    title: "E-portfolio Development",
     description:
-      "Performed a full audit of a home network, identifying insecure configurations, exposed services, and weak authentication. Implemented segmentation and hardening techniques.",
+      "Develpoed a website portfolio using Next.js and tailwind CSS to show case my technical skills and experience in the security industry. This website is deployed using Vercel and has a repository on Github.",
   },
   {
-    title: "Cybersecurity Risk Analysis of Connected Security Systems",
+    title: "hysical security system vulnerability analysis",
     description:
       "Analyzed vulnerabilities in alarm and surveillance systems including default credentials, cloud exposure, and network access risks. Proposed mitigation strategies.",
   },
   {
-    title: "Security Log Analysis & Incident Detection Simulation",
+    title: "App creation for friend recommendations",
     description:
-      "Reviewed system and network logs to identify suspicious behavior, including failed login attempts and abnormal activity patterns. Documented investigation process.",
-  },
+      "Created a local app used to add and categorize movie recommendations from friends. Built with React Native and Expo, featuring a clean interface and local data storage.",
+    
+    },
+    <a
+  href="/files/Cybersecurity in Security Raymond Malone Final.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-6 inline-block rounded-xl border border-cyan-300/30 bg-cyan-400/90 px-5 py-3 text-sm font-semibold text-slate-950"
+>
+  Download White Paper (PDF)
+</a>
 ];
 
   const quickPaths = [
