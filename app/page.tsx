@@ -367,14 +367,13 @@ export default function Page() {
               </div>
               <h2 className="mt-4 text-3xl font-bold md:text-4xl">A technical foundation built in the field.</h2>
               <p className="mt-6 leading-8 text-slate-300">
-                I work in the security industry with hands-on experience installing and supporting alarm
-                systems, surveillance cameras, and connected devices. That real-world background gives me
-                a practical view of how systems are deployed, maintained, and trusted by the people who
-                use them.
+                 I work in the security industry with hands-on experience installing and supporting alarm
+                systems. That background gives me a practical view of how systems are deployed, 
+                maintained, and trusted by the people who use them.
               </p>
               <p className="mt-5 leading-8 text-slate-300">
-                As I continue building my cybersecurity knowledge through graduate study, I am focused on
-                understanding how digital threats affect physical systems, connected environments, and the
+              As I continue building my cybersecurity knowledge, I am focused on
+                understanding how digital threats affect physical systems and the
                 broader security landscape. This portfolio reflects that growth, along with my academic
                 work, technical interests, and career direction.
               </p>
