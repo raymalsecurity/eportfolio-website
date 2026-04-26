@@ -70,14 +70,7 @@ export default function Page() {
       "Created a local app used to add and categorize movie recommendations from friends. Built with React Native and Expo, featuring a clean interface and local data storage.",
     
     },
-    <a
-  href="/files/Cybersecurity in Security Raymond Malone Final.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-6 inline-block rounded-xl border border-cyan-300/30 bg-cyan-400/90 px-5 py-3 text-sm font-semibold text-slate-950"
->
-  Download White Paper (PDF)
-</a>
+ 
 ];
 
   const quickPaths = [
