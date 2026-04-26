@@ -470,7 +470,30 @@ export default function Page() {
                   className="rounded-[2rem] border border-white/10 bg-white/5 p-7 backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:bg-white/10"
                 >
                   <h3 className="text-xl font-semibold">{project.title}</h3>
-                  <p className="mt-4 leading-7 text-slate-300">{project.description}</p>
+
+<p className="mt-4 leading-7 text-slate-300">
+  {project.description}
+</p>
+
+{project.title === "App creation for friend recommendations" && (
+  <>
+    <video
+      controls
+      className="mt-5 rounded-2xl border border-white/10"
+    >
+      <source src="/videos/recommendation-app-demo" type="video/mp4" />
+    </video>
+
+    <a
+      href="https://github.com/raymalsecurity/YOUR-APP-REPO"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-4 inline-block rounded-xl border border-cyan-300/30 bg-cyan-400/90 px-4 py-2 text-sm font-semibold text-slate-950"
+    >
+      View Code
+    </a>
+  </>
+)}
                 </motion.div>
               ))}
             </div>
