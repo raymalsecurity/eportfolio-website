@@ -496,7 +496,7 @@ export default function Page() {
       controls
       className="mt-5 rounded-2xl border border-white/10"
     >
-      <source src="/videos/recommendation-app-demo" type="video/mp4" />
+      <source src="/videos/recommendation-app-demo.mp4" type="video/mp4" />
     </video>
 
     <a
