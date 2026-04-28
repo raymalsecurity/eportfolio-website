@@ -60,7 +60,7 @@ export default function Page() {
       "Develpoed a website portfolio using Next.js and tailwind CSS to show case my technical skills and experience in the security industry. This website is deployed using Vercel and has a repository on Github.",
   },
   {
-    title: "hysical security system vulnerability analysis",
+    title: "Physical Security System Vulnerability Analysis",
     description:
       "Analyzed vulnerabilities in alarm and surveillance systems including default credentials, cloud exposure, and network access risks. Proposed mitigation strategies.",
   },
@@ -70,6 +70,14 @@ export default function Page() {
       "Created a local app used to add and categorize movie recommendations from friends. Built with React Native and Expo, featuring a clean interface and local data storage.",
     
     },
+    <a
+  href="/files/Cybersecurity%20in%20Security%20Raymond%20Malone%20Final.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-6 inline-block rounded-xl border border-cyan-300/30 bg-cyan-400/90 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5"
+>
+  Download White Paper (PDF)
+</a>
  
 ];
 
@@ -451,14 +459,6 @@ export default function Page() {
   {projects[0].description}
 </p>
 
-<a
-  href="/files/Cybersecurity%20in%20Security%20Raymond%20Malone%20Final.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-6 inline-block rounded-xl border border-cyan-300/30 bg-cyan-400/90 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5"
->
-  Download White Paper (PDF)
-</a>
             </motion.div>
 
             <div className="grid gap-6">
