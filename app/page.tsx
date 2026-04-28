@@ -68,9 +68,7 @@ export default function Page() {
     title: "App creation for friend recommendations",
     description:
       "Created a local app used to add and categorize movie recommendations from friends. Built with React Native and Expo, featuring a clean interface and local data storage.",
-    
-    },
-    <a
+        <a
   href="/files/Cybersecurity%20in%20Security%20Raymond%20Malone%20Final.pdf"
   target="_blank"
   rel="noopener noreferrer"
@@ -78,6 +76,7 @@ export default function Page() {
 >
   Download White Paper (PDF)
 </a>
+    },
  
 ];
 
