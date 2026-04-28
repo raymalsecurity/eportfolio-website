@@ -489,7 +489,7 @@ export default function Page() {
       target="_blank"
       rel="noopener noreferrer"
       className="mt-4 inline-block rounded-xl border border-cyan-300/30 bg-cyan-400/90 px-4 py-2 text-sm font-semibold text-slate-950"
-    >hy
+    >My
       View Code
     </a>
   </>
