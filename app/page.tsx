@@ -70,6 +70,12 @@ export default function Page() {
       "Created a local app used to add and categorize movie recommendations from friends. Built with React Native and Expo, featuring a clean interface and local data storage.",
     
     },
+    {
+  title: "Windows Server Cybersecurity Lab",
+  description: "Configured a Windows Server environment with Active Directory, Group Policy, DNS, and DHCP. Focused on user management, system security, and network configuration in a simulated enterprise environment.",
+  link: "/files/windows-lab-project1.docx"
+}
+
  
 ];
 
@@ -474,7 +480,16 @@ export default function Page() {
 <p className="mt-4 leading-7 text-slate-300">
   {project.description}
 </p>
-
+{project.link && (
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-4 inline-block rounded-xl border border-cyan-300/30 bg-cyan-400/90 px-4 py-2 text-sm font-semibold text-slate-950"
+  >
+    View Full Lab Documentation
+  </a>
+)}
 {project.title === "App creation for friend recommendations" && (
   <>
     <video
@@ -493,6 +508,7 @@ export default function Page() {
       View Code
     </a>
   </>
+
 )}
                 </motion.div>
               ))}
